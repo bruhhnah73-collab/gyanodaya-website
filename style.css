@@ -1076,3 +1076,16 @@ body.dark-mode .contact-item a {
     }
 
 }
+/* HOMEPAGE */
+.home-page {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.home-page .hero {
+    min-height: calc(100vh - 122px);
+}
+
+.home-page footer {
+    display: none;
+}

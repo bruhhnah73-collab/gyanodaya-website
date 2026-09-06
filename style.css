@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 :root {
@@ -23,14 +22,6 @@
     --border: #d9e2ec;
 
     --shadow: 0 10px 30px rgba(16, 42, 67, 0.08);
-}
-
-/* RESET */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -177,8 +168,7 @@ a {
 /* HERO */
 
 .hero {
-    background:
-        linear-gradient(135deg, var(--cream), #ffffff);
+    background: linear-gradient(135deg, var(--cream), #ffffff);
     padding: 85px 0;
 }
 

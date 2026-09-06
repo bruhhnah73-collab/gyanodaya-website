@@ -5,253 +5,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About | Gyanodaya Bal Batika School</title>
+    <title>About | Gyanodaya Bal Batika</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="logo.png">
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-    <header class="navbar">
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span>📍 Bungmati / Khokana, Lalitpur, Nepal</span>
+            <span>☎ 01-5590292</span>
+        </div>
+    </div>
 
+    <!-- NAVIGATION -->
+    <nav class="navbar">
         <div class="container nav-content">
 
-            <a href="index.html" class="logo-area">
-
-                <img src="logo.png" alt="Gyanodaya Bal Batika School Logo">
+            <a href="index.html" class="brand">
+                <img src="logo.png" alt="Gyanodaya Bal Batika Logo">
 
                 <div>
-                    <h2>Gyanodaya Bal Batika</h2>
-                    <span>HIGHER SECONDARY SCHOOL</span>
+                    <h1>Gyanodaya Bal Batika</h1>
+                    <p>HIGHER SECONDARY SCHOOL</p>
                 </div>
-
             </a>
 
-            <nav>
-                <button id="darkModeToggle" class="dark-mode-button">
-                    🌙
-                </button>
-
+            <div class="nav-links">
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="index.html">Academics</a>
-                <a href="index.html">History</a>
-                <a href="index.html">Contact</a>
-            </nav>
+                <a href="about.html" class="active">About</a>
+                <a href="academics.html">Academics</a>
+                <a href="history.html">History</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+
+                <a href="http://www.gyanodaya.edu.np/" class="official-btn" target="_blank">
+                    Official Website
+                </a>
+            </div>
 
         </div>
+    </nav>
 
-    </header>
-
-
-    <!-- ABOUT HERO -->
-    <section class="about-page-hero">
-
+    <!-- PAGE HERO -->
+    <section class="page-hero">
         <div class="container">
-
-            <span class="section-label">ABOUT OUR SCHOOL</span>
-
-            <h1>
-                Gyanodaya Bal Batika School
-            </h1>
-
-            <p>
-                A legacy of learning, character and community
-                since 1975.
-            </p>
-
+            <span>ABOUT US</span>
+            <h2>Who We Are</h2>
+            <p>Discover the people, values and community behind our school.</p>
         </div>
-
     </section>
 
-
-    <!-- ABOUT CONTENT -->
-    <section class="about-page">
-
-        <div class="container about-page-grid">
+    <!-- ABOUT -->
+    <section class="about-section">
+        <div class="container about-grid">
 
             <div class="about-page-image">
-
-                <img
-                    src="logo.png"
-                    alt="Gyanodaya Bal Batika School"
-                >
-
+                <img src="teachers.jpg" alt="Teachers of Gyanodaya Bal Batika">
             </div>
 
+            <div class="about-text">
+                <span class="section-label">OUR SCHOOL</span>
 
-            <div class="about-page-text">
-
-                <span class="section-label">
-                    WHO WE ARE
-                </span>
-
-                <h2>
-                    A school with a meaningful history.
-                </h2>
+                <h2>Learning With Purpose</h2>
 
                 <p>
-                    Gyanodaya Bal Batika School is located in
-                    Bungmati / Khokana, Lalitpur, Nepal.
+                    Gyanodaya Bal Batika is a higher secondary school committed
+                    to providing students with quality education in a supportive
+                    and inspiring environment.
                 </p>
 
                 <p>
-                    The school was established in 1975 A.D.
-                    by Mrs. Indira Yakthumba in fond memory of
-                    her husband, His Excellency Late Gyan Bahadur
-                    Yakthumba.
+                    Our school focuses not only on academic development but also
+                    on character, creativity, discipline and community.
                 </p>
 
                 <p>
-                    Over the years, the school has continued its
-                    journey of education and has become part of
-                    the community it serves.
+                    We believe every student has the potential to learn,
+                    contribute and build a meaningful future.
                 </p>
-
             </div>
 
         </div>
-
     </section>
 
-
-    <!-- MISSION -->
-    <section class="mission-section">
-
+    <!-- SCHOOL PHOTOS -->
+    <section class="photo-section">
         <div class="container">
 
             <div class="section-heading">
-
-                <span class="section-label">
-                    OUR VALUES
-                </span>
-
-                <h2>
-                    What we believe in.
-                </h2>
-
+                <span>OUR PEOPLE</span>
+                <h2>The People Behind Our School</h2>
             </div>
 
+            <div class="photo-grid">
 
-            <div class="cards">
-
-                <div class="card">
-
-                    <div class="card-icon">📚</div>
-
-                    <h3>Knowledge</h3>
-
-                    <p>
-                        Encouraging students to develop a strong
-                        foundation of knowledge and understanding.
-                    </p>
-
+                <div class="photo-card">
+                    <img src="classroom.jpg" alt="Classroom at Gyanodaya Bal Batika">
+                    <div class="photo-card-content">
+                        <h3>Our Classrooms</h3>
+                        <p>Spaces where students learn and explore new ideas.</p>
+                    </div>
                 </div>
 
-
-                <div class="card">
-
-                    <div class="card-icon">🌱</div>
-
-                    <h3>Character</h3>
-
-                    <p>
-                        Helping young people grow into responsible,
-                        confident and thoughtful individuals.
-                    </p>
-
+                <div class="photo-card">
+                    <img src="principal.jpg" alt="Principal of Gyanodaya Bal Batika">
+                    <div class="photo-card-content">
+                        <h3>Our Principal</h3>
+                        <p>Leading our school community with dedication.</p>
+                    </div>
                 </div>
 
-
-                <div class="card">
-
-                    <div class="card-icon">🤝</div>
-
-                    <h3>Community</h3>
-
-                    <p>
-                        Building a supportive environment where
-                        students, teachers and families can grow
-                        together.
-                    </p>
-
+                <div class="photo-card">
+                    <img src="founder.jpg" alt="Founder of Gyanodaya Bal Batika">
+                    <div class="photo-card-content">
+                        <h3>Our Founder</h3>
+                        <p>Remembering the founder whose vision helped shape our school.</p>
+                    </div>
                 </div>
 
             </div>
 
         </div>
-
     </section>
 
+    <!-- VALUES -->
+    <section class="values-section">
+        <div class="container">
 
-    <!-- FOOTER -->
-    <footer>
+            <div class="section-heading">
+                <span>WHAT WE VALUE</span>
+                <h2>Our Core Values</h2>
+            </div>
 
-        <div class="container footer-grid">
+            <div class="values-grid">
 
-            <div>
-
-                <div class="footer-brand">
-
-                    <img src="logo.png" alt="School Logo">
-
-                    <div>
-                        <strong>
-                            Gyanodaya Bal Batika School
-                        </strong>
-
-                        <span>
-                            HIGHER SECONDARY SCHOOL
-                        </span>
-                    </div>
-
+                <div class="value-card">
+                    <div class="value-icon">📚</div>
+                    <h3>Knowledge</h3>
+                    <p>
+                        Encouraging curiosity, learning and a lifelong love
+                        for knowledge.
+                    </p>
                 </div>
 
-                <p>
-                    Inspiring minds, building futures.
-                </p>
+                <div class="value-card">
+                    <div class="value-icon">🌱</div>
+                    <h3>Character</h3>
+                    <p>
+                        Helping students develop responsibility, confidence
+                        and integrity.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Community</h3>
+                    <p>
+                        Building a respectful and supportive school community
+                        where everyone belongs.
+                    </p>
+                </div>
 
             </div>
 
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
 
             <div>
+                <h3>Gyanodaya Bal Batika</h3>
+                <p>Higher Secondary School</p>
+                <p>Bungmati / Khokana, Lalitpur, Nepal</p>
+            </div>
 
-                <h4>Quick Links</h4>
-
+            <div>
+                <h3>Quick Links</h3>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-
+                <a href="academics.html">Academics</a>
+                <a href="history.html">History</a>
+                <a href="contact.html">Contact</a>
             </div>
-
 
             <div>
-
-                <h4>Contact</h4>
-
-                <p>
-                    Karyabinayak 44700<br>
-                    Lalitpur, Nepal
-                </p>
-
-                <p>
-                    ☎ 01-5590292
-                </p>
-
+                <h3>Connect</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
             </div>
 
         </div>
 
-
-        <div class="copyright">
-            © 2026 Gyanodaya Bal Batika School.
+        <div class="footer-bottom">
+            <p>© 2026 Gyanodaya Bal Batika. All rights reserved.</p>
         </div>
-
     </footer>
-
-
-    <script src="script.js"></script>
 
 </body>
 

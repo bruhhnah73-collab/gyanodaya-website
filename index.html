@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Gyanodaya Bal Batika School</title>
+    <title>Gyanodaya Bal Batika | Higher Secondary School</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="logo.png">
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -21,214 +23,152 @@
         </div>
     </div>
 
-
     <!-- NAVIGATION -->
-    <header class="navbar">
-
+    <nav class="navbar">
         <div class="container nav-content">
 
-            <a href="index.html" class="logo-area">
-
-                <img src="logo.png" alt="Gyanodaya Bal Batika School Logo">
+            <a href="index.html" class="brand">
+                <img src="logo.png" alt="Gyanodaya Bal Batika Logo">
 
                 <div>
-                    <h2>Gyanodaya Bal Batika</h2>
-                    <span>HIGHER SECONDARY SCHOOL</span>
+                    <h1>Gyanodaya Bal Batika</h1>
+                    <p>HIGHER SECONDARY SCHOOL</p>
                 </div>
-
             </a>
 
-
-            <nav>
-
-                <button id="darkModeToggle" class="dark-mode-button" aria-label="Toggle dark mode">
-                    🌙
-                </button>
-
-                <a href="index.html">Home</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
                 <a href="about.html">About</a>
                 <a href="academics.html">Academics</a>
                 <a href="history.html">History</a>
                 <a href="contact.html">Contact</a>
+            </div>
 
-                <a
-                    href="http://www.gyanodaya.edu.np/"
-                    target="_blank"
-                    class="official-button"
-                >
-                    Official Website ↗
+            <div class="nav-actions">
+                <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+                <a href="http://www.gyanodaya.edu.np/" class="official-btn" target="_blank">
+                    Official Website
                 </a>
-
-            </nav>
+            </div>
 
         </div>
-
-    </header>
-
+    </nav>
 
     <!-- HERO -->
-    <main>
+    <header class="hero">
+        <div class="container hero-content">
 
-        <section class="hero" id="home">
+            <div class="hero-text">
+                <span class="hero-badge">ESTABLISHED 1975</span>
 
-            <div class="container hero-content">
-
-                <div class="hero-text">
-
-                    <span class="eyebrow">
-                        ESTABLISHED 1975
-                    </span>
-
-                    <h1>
-                        Inspiring Minds.
-                        <span>Building Futures.</span>
-                    </h1>
-
-                    <p>
-                        Welcome to Gyanodaya Bal Batika School.
-                        A place where education, character and
-                        curiosity come together to shape the future.
-                    </p>
-
-                    <div class="hero-buttons">
-
-                        <a href="about.html" class="primary-button">
-                            Discover Our School →
-                        </a>
-
-                        <a href="contact.html" class="secondary-button">
-                            Contact Us
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- STATS -->
-        <section class="stats-section">
-
-            <div class="container stats">
-
-                <div class="stat">
-                    <strong>1975</strong>
-                    <span>Established</span>
-                </div>
-
-                <div class="stat">
-                    <strong>50+</strong>
-                    <span>Years of Legacy</span>
-                </div>
-
-                <div class="stat">
-                    <strong>∞</strong>
-                    <span>Possibilities</span>
-                </div>
-
-                <div class="stat">
-                    <strong>1</strong>
-                    <span>School Community</span>
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <div class="container footer-grid">
-
-            <div>
-
-                <div class="footer-brand">
-
-                    <img
-                        src="logo.png"
-                        alt="Gyanodaya Bal Batika School Logo"
-                    >
-
-                    <div>
-                        <strong>
-                            Gyanodaya Bal Batika School
-                        </strong>
-
-                        <span>
-                            HIGHER SECONDARY SCHOOL
-                        </span>
-                    </div>
-
-                </div>
+                <h2>Inspiring Minds.<br>Building Futures.</h2>
 
                 <p>
-                    Inspiring minds, building futures and
-                    carrying forward a legacy of education.
+                    Welcome to Gyanodaya Bal Batika, a higher secondary school
+                    dedicated to providing quality education and developing
+                    responsible, confident and capable students.
                 </p>
+
+                <div class="hero-buttons">
+                    <a href="about.html" class="primary-btn">Learn More</a>
+                    <a href="contact.html" class="secondary-btn">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="school.jpg" alt="Gyanodaya Bal Batika school">
+            </div>
+
+        </div>
+    </header>
+
+    <!-- STATS -->
+    <section class="stats-section">
+        <div class="container stats">
+
+            <div class="stat">
+                <strong>1975</strong>
+                <span>Established</span>
+            </div>
+
+            <div class="stat">
+                <strong>50+</strong>
+                <span>Years of Legacy</span>
+            </div>
+
+            <div class="stat">
+                <strong>∞</strong>
+                <span>Possibilities</span>
+            </div>
+
+            <div class="stat">
+                <strong>1</strong>
+                <span>School Community</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OUR SCHOOL -->
+    <section class="photo-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <span>OUR COMMUNITY</span>
+                <h2>Life at Gyanodaya</h2>
+                <p>
+                    A school is more than classrooms. It is a community where
+                    students learn, grow and create lasting memories.
+                </p>
+            </div>
+
+            <div class="photo-grid">
+
+                <div class="photo-card">
+                    <img src="students.jpg" alt="Students of Gyanodaya Bal Batika">
+                    <div class="photo-card-content">
+                        <h3>Our Students</h3>
+                        <p>Learning, growing and building their future together.</p>
+                    </div>
+                </div>
 
             </div>
 
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
 
             <div>
+                <h3>Gyanodaya Bal Batika</h3>
+                <p>Higher Secondary School</p>
+                <p>Bungmati / Khokana, Lalitpur, Nepal</p>
+            </div>
 
-                <h4>Quick Links</h4>
-
+            <div>
+                <h3>Quick Links</h3>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="academics.html">Academics</a>
                 <a href="history.html">History</a>
                 <a href="contact.html">Contact</a>
-
             </div>
-
 
             <div>
-
-                <h4>Connect</h4>
-
-                <a
-                    href="https://www.facebook.com/gyanodaya"
-                    target="_blank"
-                >
-                    Facebook
-                </a>
-
-                <a
-                    href="https://www.instagram.com/gyanodayabalbatika/"
-                    target="_blank"
-                >
-                    Instagram
-                </a>
-
-                <a
-                    href="https://www.youtube.com/channel/UClOL43jqZs-JQP3lpm9KDaw"
-                    target="_blank"
-                >
-                    YouTube
-                </a>
-
+                <h3>Connect</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
             </div>
 
         </div>
 
-
-        <div class="copyright">
-
-            © 2026 Gyanodaya Bal Batika School.
-            All rights reserved.
-
+        <div class="footer-bottom">
+            <p>© 2026 Gyanodaya Bal Batika. All rights reserved.</p>
         </div>
-
     </footer>
-
-
-    <script src="script.js"></script>
 
 </body>
 
